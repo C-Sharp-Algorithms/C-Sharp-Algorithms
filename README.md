@@ -42,8 +42,8 @@ This project originally started out as an interview preparation project by [aalh
 
 This is a fork that revives aalhour's hard work with additional improvements such as:
 
-- A NuGet package (#1)
-- Available as .NET Standard 1.6 library, meaning it supports .NET Framework 4.6.1+, .NET Core 2.0+, Mono and Xamarin. (#2)
+- [NuGet packages (.NET Standard 1.6)](https://www.nuget.org/profiles/C-Sharp-Algorithms)
+- More to come
 
 ##
 ### DESCRIPTION
