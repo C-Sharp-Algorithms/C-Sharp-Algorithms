@@ -43,6 +43,14 @@
           "type": "boolean",
           "description": "Disables displaying the NUKE logo"
         },
+        "NugetApiKey": {
+          "type": "string",
+          "description": "API Key for the NuGet server"
+        },
+        "NugetSource": {
+          "type": "string",
+          "description": "NuGet server URL"
+        },
         "Plan": {
           "type": "boolean",
           "description": "Shows the execution plan (HTML)"
@@ -66,7 +74,10 @@
             "enum": [
               "Clean",
               "Compile",
-              "Restore"
+              "Pack",
+              "Push",
+              "Restore",
+              "Test"
             ]
           }
         },
@@ -82,7 +93,10 @@
             "enum": [
               "Clean",
               "Compile",
-              "Restore"
+              "Pack",
+              "Push",
+              "Restore",
+              "Test"
             ]
           }
         },
