@@ -16,7 +16,15 @@
 
 name: main
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+      - develop
+  pull_request:
+    branches:
+      - master
+      - develop
 
 jobs:
   ubuntu-18_04:

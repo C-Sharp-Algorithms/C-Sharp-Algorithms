@@ -16,12 +16,11 @@ using static Nuke.Common.Tools.Xunit.XunitTasks;
 
 [CheckBuildProjectConfigurations]
 [ShutdownDotNetAfterServerBuild]
-[GitHubActions("main", GitHubActionsImage.Ubuntu1804, AutoGenerate = true, On = new[]
-    {
-        GitHubActionsTrigger.Push
-    },
+[GitHubActions("main", GitHubActionsImage.Ubuntu1804, AutoGenerate = true,
     ImportSecrets = new[]{ "NUGET_API_KEY" },
-    InvokedTargets = new[]{nameof(Push)}
+    InvokedTargets = new[]{nameof(Push)},
+    OnPushBranches = new[]{"master", "develop"},
+    OnPullRequestBranches = new[]{"master", "develop"}
 )]
 class Build : NukeBuild
 {
