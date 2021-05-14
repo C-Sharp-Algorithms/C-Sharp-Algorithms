@@ -17,16 +17,13 @@
 
 <p align="center">
   <a href="LICENSE" alt="License">
-    <img src="https://img.shields.io/github/license/aalhour/C-Sharp-Algorithms?style=flat-square&color=blue" />
+    <img src="https://img.shields.io/github/license/C-Sharp-Algorithms/C-Sharp-Algorithms?style=flat-square&color=blue" />
   </a>
-  <a href="https://travis-ci.org/aalhour/C-Sharp-Algorithms" alt="Build">
-    <img src="https://img.shields.io/travis/aalhour/C-Sharp-Algorithms?style=flat-square&color=blue" />
+  <a href="https://github.com/C-Sharp-Algorithms/C-Sharp-Algorithms/graphs/contributors" alt="Contributors">
+    <img src="https://img.shields.io/github/contributors/C-Sharp-Algorithms/C-Sharp-Algorithms?style=flat-square&color=blue" />
   </a>
-  <a href="https://github.com/aalhour/C-Sharp-Algorithms/graphs/contributors" alt="Contributors">
-    <img src="https://img.shields.io/github/contributors/aalhour/C-Sharp-Algorithms?style=flat-square&color=blue" />
-  </a>
-  <a href="https://github.com/aalhour/C-Sharp-Algorithms/pulse" alt="Activity">
-    <img src="https://img.shields.io/github/commit-activity/m/aalhour/C-Sharp-Algorithms?style=flat-square&color=blue" />
+  <a href="https://github.com/C-Sharp-Algorithms/C-Sharp-Algorithms/pulse" alt="Activity">
+    <img src="https://img.shields.io/github/commit-activity/m/C-Sharp-Algorithms/C-Sharp-Algorithms?style=flat-square&color=blue" />
   </a>
 </p>
 
@@ -38,7 +35,12 @@ A plug-and-play class-library project of standard Data Structures and Algorithms
 ##
 ### BACK STORY
 
-This project originally started out as an interview preparation project. However, after receiving a great amount of positive responses on [reddit](https://redd.it/3etf9f), and noticing excitement from a few [GitHubers](https://github.com/aalhour/C-Sharp-Algorithms#contributors) to contribute furthermore to it, the project took on a different meaning. So, I decided to keep maintaining it as a reference for data structures and algorithm implementations in C# as well as my own research side-project under these topics.
+This project originally started out as an interview preparation project by [aalhour](https://github.com/aalhour). However, after receiving a great amount of positive responses on [reddit](https://redd.it/3etf9f), and noticing excitement from a few [GitHubers](https://github.com/aalhour/C-Sharp-Algorithms#contributors) to contribute furthermore to it, the project took on a different meaning. So, aalhour decided to keep maintaining it as a reference for data structures and algorithm implementations in C# as well as his own research side-project under these topics.
+
+This is a fork that revives aalhour's hard work with additional improvements such as:
+
+- A NuGet package (#1)
+- Available as .NET Standard 1.6 library, meaning it supports .NET Framework 4.6.1+, .NET Core 2.0+, Mono and Xamarin. (#2)
 
 ##
 ### DESCRIPTION
@@ -53,8 +55,7 @@ This is a C#.NET solution-project, and it contains three subprojects:
 
 #### Requirements:
 
-  1. .NET Core >= 2.0
-  2. XUnit
+  1. XUnit
 
 #### A Note to Contributors:
 
@@ -205,8 +206,8 @@ If you wish to contribute to C# ALGORITHMS, then please make sure you check out 
 ##
 ### CONTRIBUTORS
 
-<a href="https://github.com/aalhour/C-Sharp-Algorithms/graphs/contributors">
-  <img src="https://contributors-img.firebaseapp.com/image?repo=aalhour/C-Sharp-Algorithms" />
+<a href="https://github.com/C-Sharp-Algorithms/C-Sharp-Algorithms/graphs/contributors">
+  <img src="https://contributors-img.firebaseapp.com/image?repo=C-Sharp-Algorithms/C-Sharp-Algorithms" />
 </a>
 
 <br />
