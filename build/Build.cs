@@ -16,7 +16,7 @@ using static Nuke.Common.Tools.Xunit.XunitTasks;
 
 [CheckBuildProjectConfigurations]
 [ShutdownDotNetAfterServerBuild]
-[GitHubActions("C-Sharp-Algorithms", GitHubActionsImage.Ubuntu1804, AutoGenerate = true, On = new[]
+[GitHubActions("main", GitHubActionsImage.Ubuntu1804, AutoGenerate = true, On = new[]
     {
         GitHubActionsTrigger.PullRequest
     },
