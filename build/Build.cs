@@ -18,10 +18,10 @@ using static Nuke.Common.Tools.Xunit.XunitTasks;
 [ShutdownDotNetAfterServerBuild]
 [GitHubActions("main", GitHubActionsImage.Ubuntu1804, AutoGenerate = true, On = new[]
     {
-        GitHubActionsTrigger.PullRequest
+        GitHubActionsTrigger.Push
     },
     ImportSecrets = new[]{ "NUGET_API_KEY" },
-    InvokedTargets = new[]{"Push"}
+    InvokedTargets = new[]{nameof(Push)}
 )]
 class Build : NukeBuild
 {

@@ -16,7 +16,7 @@
 
 name: main
 
-on: [pull_request]
+on: [push]
 
 jobs:
   ubuntu-18_04:

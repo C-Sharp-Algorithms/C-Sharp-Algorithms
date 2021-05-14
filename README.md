@@ -19,6 +19,9 @@
   <a href="LICENSE" alt="License">
     <img src="https://img.shields.io/github/license/C-Sharp-Algorithms/C-Sharp-Algorithms?style=flat-square&color=blue" />
   </a>
+  <a href="https://github.com/C-Sharp-Algorithms/C-Sharp-Algorithms/actions/workflows/main.yml">
+    <img src="https://github.com/C-Sharp-Algorithms/C-Sharp-Algorithms/actions/workflows/main.yml/badge.svg" />
+  </a>
   <a href="https://github.com/C-Sharp-Algorithms/C-Sharp-Algorithms/graphs/contributors" alt="Contributors">
     <img src="https://img.shields.io/github/contributors/C-Sharp-Algorithms/C-Sharp-Algorithms?style=flat-square&color=blue" />
   </a>
