@@ -1,4 +1,5 @@
 ﻿using DataStructures.Lists;
+using System.Collections.Generic;
 using Xunit;
 
 namespace UnitTest.DataStructuresTests
@@ -60,6 +61,13 @@ namespace UnitTest.DataStructuresTests
 
             Assert.True(intArray[0] == 0 && intArray[intArray.Length - 1] == 55, "Wrong sorting!");
         }
+
+        [Fact]
+        public static void EnumerateEmptyList()
+        {
+            SLinkedList<int> emptyList = new SLinkedList<int>();
+            IEnumerator<int> enumerator = emptyList.GetEnumerator();
+            Assert.False(enumerator.MoveNext());
+        }
     }
 }
-
