@@ -140,14 +140,16 @@ namespace UnitTest.DataStructuresTests
         }
 
         [Fact]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertions", "xUnit2017:Do not use Contains() to check if a value exists in a collection", Justification = "This tests the Contains method")]
         public static void TestingICollectionImplementation() 
         {
             var circularBuffer = new CircularBuffer<byte>(3, false);
             circularBuffer.Add(3);
             circularBuffer.Add(34);
             circularBuffer.Add(24);
-            //Testing contains
+            //Testing Contains
             Assert.True(circularBuffer.Contains(3));
+            Assert.Contains<byte>(3, circularBuffer);
             
             //Testing CopyTo
             var array = new byte[3];
