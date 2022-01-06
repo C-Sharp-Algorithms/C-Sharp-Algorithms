@@ -171,7 +171,7 @@ namespace UnitTest.DataStructuresTests
              */
 
             // The tree should now be rooted around 40, with the left child full.
-            Assert.Equal(null, bTree.Search(5));
+            Assert.Null(bTree.Search(5));
             Assert.Equal(2, bTree.Root.Children.Count);
             Assert.Equal(7, bTree.Root.Children[0].Keys.Count); // left-most
             Assert.Equal(3, bTree.Root.Children[1].Keys.Count); // right-most
