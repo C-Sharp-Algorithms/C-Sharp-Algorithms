@@ -461,11 +461,11 @@ namespace DataStructures.Lists
         internal class SLinkedListEnumerator : IEnumerator<T>
         {
             private SLinkedListNode<T> _current;
-            private SLinkedList<T> _doublyLinkedList;
+            private SLinkedList<T> _list;
 
             public SLinkedListEnumerator(SLinkedList<T> list)
             {
-                this._doublyLinkedList = list;
+                this._list = list;
                 this._current = list.Head;
             }
 
@@ -481,20 +481,22 @@ namespace DataStructures.Lists
 
             public bool MoveNext()
             {
-                _current = _current.Next;
-
-                return (this._current != null);
+                if (_current != null)
+                {
+                    _current = _current.Next;
+                }
+                return (_current != null);
             }
 
             public void Reset()
             {
-                _current = _doublyLinkedList.Head;
+                _current = _list.Head;
             }
 
             public void Dispose()
             {
                 _current = null;
-                _doublyLinkedList = null;
+                _list = null;
             }
         }
     }
